@@ -40,12 +40,12 @@ module heatbed(){
 frame_lower();
 
 //-- Y AXIS
-color([0,1,1]) translate([100+4,10,50]) rotate([-90,0,0]) rod(length=370);
-translate([100+4,130,50]) rotate([90,0,0]) lm8uu();
-translate([100+4,260,50]) rotate([90,0,0]) lm8uu();
-color([0,1,1]) translate([270+4,10,50]) rotate([-90,0,0]) rod(length=370);
-translate([270+4,195,50]) rotate([90,0,0]) lm8uu();
+color([0,1,1]) translate([100+4,10,60]) rotate([-90,0,0]) rod(length=370);
+translate([100+4,130,60]) rotate([90,0,0]) lm8uu();
+translate([100+4,260,60]) rotate([90,0,0]) lm8uu();
+color([0,1,1]) translate([270+4,10,60]) rotate([-90,0,0]) rod(length=370);
+translate([270+4,195,60]) rotate([90,0,0]) lm8uu();
 
 translate([390/2-21 , 390-20-42, 0]) nema17();
 
-translate([390/2-328/2 , 390/2-328/2, 60]) heatbed();
+translate([390/2-328/2 , 390/2-328/2, 70]) heatbed();
